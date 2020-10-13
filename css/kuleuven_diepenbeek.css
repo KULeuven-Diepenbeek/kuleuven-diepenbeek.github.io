@@ -1,3 +1,45 @@
-div.year {
-  background-color: green;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  justify-content: space-between;
+  align-items: center;
+
+  width: 50%;
+  margin: auto;
+
+}
+
+
+.main {
+  width: 100%;
+}
+
+.year {
+  width: 90%;
+  margin: auto;
+}
+
+.OO {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  justify-content: space-between;
+  align-items: center;
+
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.OO_links a {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
 }
