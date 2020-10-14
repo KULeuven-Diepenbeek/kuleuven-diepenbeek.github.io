@@ -1,4 +1,21 @@
 
+
+* {
+  font-family: Verdana, Tahoma, Arial;
+}
+
+body {
+    font-size: 18px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -11,7 +28,6 @@
   margin: auto;
 
 }
-
 
 .main {
   width: 100%;
@@ -34,12 +50,27 @@
   margin-right: 10%;
 }
 
+.OO .OO_code {
+  width: 20%;
+}
+
+.OO .OO_name {
+  width: 60%;
+}
+
+.OO .OO_links {
+  width: 20%;
+}
+
 .OO_links a {
   margin-left: 2%;
   margin-right: 2%;
 }
 
-.footer {
+footer {
   width: 100%;
+  margin-top: 2rem;
+  height: 0.5rem;
   background-color: black;
 }
+
